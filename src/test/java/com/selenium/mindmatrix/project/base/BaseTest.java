@@ -184,8 +184,9 @@ public class BaseTest {
 	}
 
 	protected void waitForLoad(WebDriver driver) {
-		new WebDriverWait(driver, 90).until((ExpectedCondition<Boolean>) wd -> ((JavascriptExecutor) wd)
-				.executeScript("return document.readyState").equals("complete"));
+//		new WebDriverWait(driver, 90).until((ExpectedCondition<Boolean>) wd -> ((JavascriptExecutor) wd)
+//				.executeScript("return document.readyState").equals("complete"));
+		wait(10);
 	}
 
 	protected static void wait(int timeToWait) {
