@@ -417,8 +417,8 @@ public class BaseTest {
 	/************** appFunctions ************/
 
 	protected void doLoginMMAmpAndPortal() {
-		type("username_xpath", "pkumarr");
-		type("password_xpath", "P1yush@2001");
+		type("username_xpath", "hkhdjkhjds");
+		type("password_xpath", "djkjkjdkjs@2001");
 		wait(2);
 		clickJS("//*[@id='btnLogin']");
 
@@ -441,8 +441,8 @@ public class BaseTest {
 	
 	protected void doLoginForMaster() {
 
-		type("username_xpath", "munishs");
-		type("password_xpath", "munish_110");
+		type("username_xpath", "dhuhe");
+		type("password_xpath", "ejiuewiouj");
 		wait(2);
 		clickJS("//*[@id='btnLogin']");
 
