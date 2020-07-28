@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [SuiteA]]">
+  <test name="CriticalFunctionalityCheck(failed)(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC5Testfordefaultaswellastemplateatwelcomepage">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="TestTC5" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC5Testfordefaultaswellastemplateatwelcomepage -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC4Testfortemplatedashboardbanner">
+        <methods>
+          <include name="TestTC4" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC4Testfortemplatedashboardbanner -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC3Testfordefaultdashboardbanner">
+        <methods>
+          <include name="TestTC3" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC3Testfordefaultdashboardbanner -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC1TestwithinvaliduserIDandinvalidpassword">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="TestTC1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC1TestwithinvaliduserIDandinvalidpassword -->
+    </classes>
+  </test> <!-- CriticalFunctionalityCheck(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SuiteA]] -->

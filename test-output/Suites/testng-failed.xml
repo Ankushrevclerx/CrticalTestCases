@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suites]">
+  <test name="LoginFunctionality(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.UserManagement.ImportUser">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.ImportUser -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestForgotPasswordPageBeforeLogin">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="testForgotPasswordPageBeforeLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestForgotPasswordPageBeforeLogin -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestCopyCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestCopyCompany -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestLoginFuctionalityOfTheAMP">
+        <methods>
+          <include name="subTest3_4" invocation-numbers="0"/>
+          <include name="subTest3_1" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="subTest3_3" invocation-numbers="0"/>
+          <include name="subTest3_2" invocation-numbers="0"/>
+          <include name="subTest3_5" invocation-numbers="0"/>
+          <include name="subTest3_7" invocation-numbers="0"/>
+          <include name="subTest3_6" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestLoginFuctionalityOfTheAMP -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestOrganization">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestOrganization -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestLoginPageBeforeLoginAMP">
+        <methods>
+          <include name="testLoginPagebeforeLoginAMP" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestLoginPageBeforeLoginAMP -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.EditCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.EditCompany -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.UserCreation">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.UserCreation -->
+    </classes>
+  </test> <!-- LoginFunctionality(failed) -->
+  <test name="UserManagement(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.UserManagement.ImportUser">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="userimaport1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.ImportUser -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestCopyCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="testCopyCompany6_3"/>
+          <include name="testCopyCompany6_1" invocation-numbers="0"/>
+          <include name="testCopyCompany6_2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestCopyCompany -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestForgotPasswordPageBeforeLogin">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestForgotPasswordPageBeforeLogin -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation">
+        <methods>
+          <include name="testCompanyCreation4_9" invocation-numbers="0"/>
+          <include name="testCompanyCreation" invocation-numbers="0"/>
+          <include name="testCompanyCreation4_5" invocation-numbers="0"/>
+          <include name="testCompanyCreation4_10" invocation-numbers="0"/>
+          <include name="subTest4_1" invocation-numbers="0"/>
+          <include name="subTest4_2" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="subTest4_3" invocation-numbers="0"/>
+          <include name="testCompanyCreation4_11" invocation-numbers="0"/>
+          <include name="subTest4_4" invocation-numbers="0"/>
+          <include name="subTest4_6" invocation-numbers="0"/>
+          <include name="subTest4_7" invocation-numbers="0"/>
+          <include name="subTest4_8" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestLoginFuctionalityOfTheAMP">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestLoginFuctionalityOfTheAMP -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation">
+        <methods>
+          <include name="TestUserGroupCreation11_1" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestOrganization">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestOrganization -->
+      <class name="com.selenium.mindmatrix.project.LoginFunctionality.TestLoginPageBeforeLoginAMP">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.LoginFunctionality.TestLoginPageBeforeLoginAMP -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.EditCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="subTest5_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.EditCompany -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="testCompanyCreation1" invocation-numbers="0"/>
+          <include name="testCompanyCreation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup">
+        <methods>
+          <include name="TestOrganizationGroupCreation13_1" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup -->
+      <class name="com.selenium.mindmatrix.project.UserManagement.UserCreation">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="userCreation8_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.UserManagement.UserCreation -->
+    </classes>
+  </test> <!-- UserManagement(failed) -->
+</suite> <!-- Failed suite [Suites] -->

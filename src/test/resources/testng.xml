@@ -1,0 +1,8 @@
+<suite name="Suites">
+<suite-files>
+	
+	<suite-file path="./src/test/resources/CriticalFunctionalityCheck.xml"/>
+
+	
+</suite-files>			
+</suite>

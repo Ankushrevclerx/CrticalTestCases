@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [SuiteA]" parallel="classes">
+  <test name="CriticalFunctionalityCheck(failed)" parallel="classes">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC11Organizationgroupmodule">
+        <methods>
+          <include name="TestTC11" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC11Organizationgroupmodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC3Testfordefaultdashboardbanner">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC3Testfordefaultdashboardbanner -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC5Testfordefaultaswellastemplateatwelcomepage">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC5Testfordefaultaswellastemplateatwelcomepage -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC6Testforcontactcreationeditdelete">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC6Testforcontactcreationeditdelete -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC9Usergroupmodule">
+        <methods>
+          <include name="TestTC9" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC9Usergroupmodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC1TestwithinvaliduserIDandinvalidpassword">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC1TestwithinvaliduserIDandinvalidpassword -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC7Companiesmodule">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC7Companiesmodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC8Opportunitymodule">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC8Opportunitymodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC4Testfortemplatedashboardbanner">
+        <methods>
+          <include name="TestTC4" invocation-numbers="0"/>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC4Testfortemplatedashboardbanner -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC12Organizationmodule">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC12Organizationmodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC10Usermodule">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC10Usermodule -->
+      <class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC2TestwithvaliduserIDandvalidpassword">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC2TestwithvaliduserIDandvalidpassword -->
+    </classes>
+  </test> <!-- CriticalFunctionalityCheck(failed) -->
+</suite> <!-- Failed suite [SuiteA] -->

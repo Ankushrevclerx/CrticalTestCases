@@ -1,0 +1,20 @@
+<suite name="SuiteA" parallel="classes" thread-count="2">
+	
+	<test name="CriticalFunctionalityCheck" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC1TestwithinvaliduserIDandinvalidpassword" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC2TestwithvaliduserIDandvalidpassword" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC3Testfordefaultdashboardbanner" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC4Testfortemplatedashboardbanner" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC5Testfordefaultaswellastemplateatwelcomepage" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC6Testforcontactcreationeditdelete" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC7Companiesmodule" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC8Opportunitymodule" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC9Usergroupmodule" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC10Usermodule" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC11Organizationgroupmodule" />
+			<class name="com.selenium.mindmatrix.project.CriticalFunctionalityCheck.TC12Organizationmodule" />
+		</classes>
+	</test>
+	
+</suite>

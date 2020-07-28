@@ -1,0 +1,1140 @@
+<html>
+<head>
+<title>TestNG:  UserManagement</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UserManagement</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/4/22</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 21 16:52:58 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>842 seconds (842965 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup.TestOrganizationGroupCreation13_1()'><b>TestOrganizationGroupCreation13_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup<br>Parameters: {Two=Created On, Description=Data entered in description field (123456789), InfoTab2=Description, InfoTab1=Name *, orgname=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqqqqqqqqqqqqqqqq, Runmode=Y, One=Updated On, useradded=sangam@revclerx.com, Three=Name, orgdes=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Tab3=3Assign To Users, Browser=Chrome, Tab2=2Add Organizations, Tab1=1Info}</td>
+<td><div><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63480}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: faedbfa1fffc277589a9912a546c950a
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup.verification(TestOrganizationGroup.java:54)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup.TestOrganizationGroupCreation13_1(TestOrganizationGroup.java:46)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1638622497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1638622497'><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63480}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: faedbfa1fffc277589a9912a546c950a
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup.verification(TestOrganizationGroup.java:54)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup.TestOrganizationGroupCreation13_1(TestOrganizationGroup.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>44</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestOrganizationGroup@8e24743</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.TestUserGroupCreation11_8()'><b>TestUserGroupCreation11_8</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;inbox-side-bar inbox-sidebar-ui-fix hidden-sm hidden-xs&apos;]//input[@placeholder=&apos;Search for records&apos;]                  &quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63374}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: b47437aa0d541082c3dc699cd00cbc8a
+*** Element info: {Using=xpath, value=//div[@class=&apos;inbox-side-bar inbox-sidebar-ui-fix hidden-sm hidden-xs&apos;]//input[@placeholder=&apos;Search for records&apos;]                  }
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.noneverification(TestUserGroupCreation.java:92)
+	at com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.TestUserGroupCreation11_8(TestUserGroupCreation.java:63)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace614785733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace614785733'><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;inbox-side-bar inbox-sidebar-ui-fix hidden-sm hidden-xs&apos;]//input[@placeholder=&apos;Search for records&apos;]                  &quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63374}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: b47437aa0d541082c3dc699cd00cbc8a
+*** Element info: {Using=xpath, value=//div[@class=&apos;inbox-side-bar inbox-sidebar-ui-fix hidden-sm hidden-xs&apos;]//input[@placeholder=&apos;Search for records&apos;]                  }
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.noneverification(TestUserGroupCreation.java:92)
+	at com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.TestUserGroupCreation11_8(TestUserGroupCreation.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>75</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation@64f6106c</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationCreationTest()'><b>organizationCreationTest</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestOrganization<br>Parameters: {Password=, Username=, Business Planning=, Marketing Enabled=, Organization Logo=, ToS=Test tos, Sales Enabled=, Facebook=https://www.facebook.com/, City=city, Email=test@mailinator.com, Color 4=#6d4cc9, Color 3=, Color 2=#6d4cc9, Color 1=#6d4cc9, Telephone=9.876556789E9, Currency=Egyptian Pound, 1Info=, Initial Onboarding Completed=, Organization Signature=test1 test2, 2Add Users=, Areas Served=areas served, Cookie Privacy policy & ToS for consent URL=https://www.google.com/, Preferences=, Training Completed=, Runmode=Y, Country=US, Cookie Policy Settings=Always Off, State=state, 3Roles=, Info=, Partner Logo6=, Stages=, Partner Logo5=, Url=https://www.google.com/intl/en-GB/gmail/about/#, Partner Logo4=, Linked In=https://www.linkedin.com/, Partner Logo3=, Address2=address2, Partner Logo2=, Address1=address1, Zipcode=90001.0, Partner Logo1=, Organization Name *=, Certification Completed=, ExpectedResult=Y, Twitter=https://twitter.com/, Fax=7.654334567E9, External ID=external id, Browser=Chrome}</td>
+<td><div><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: 7513ce3356b6635334aab9c3fb40088b
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationCreation(TestOrganization.java:747)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationCreationTest(TestOrganization.java:82)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1545982161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1545982161'><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63547}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: 7513ce3356b6635334aab9c3fb40088b
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationCreation(TestOrganization.java:747)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationCreationTest(TestOrganization.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>43</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestOrganization@74a10858</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationVerificationTest()'><b>organizationVerificationTest</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestOrganization<br>Parameters: {Password=, Username=, Business Planning=, Marketing Enabled=, Organization Logo=, ToS=Test tos, Sales Enabled=, Facebook=https://www.facebook.com/, City=city, Email=test@mailinator.com, Color 4=#6d4cc9, Color 3=, Color 2=#6d4cc9, Color 1=#6d4cc9, Telephone=9.876556789E9, Currency=Egyptian Pound, 1Info=, Initial Onboarding Completed=, Organization Signature=test1 test2, 2Add Users=, Areas Served=areas served, Cookie Privacy policy & ToS for consent URL=https://www.google.com/, Preferences=, Training Completed=, Runmode=Y, Country=US, Cookie Policy Settings=Always Off, State=state, 3Roles=, Info=, Partner Logo6=, Stages=, Partner Logo5=, Url=https://www.google.com/intl/en-GB/gmail/about/#, Partner Logo4=, Linked In=https://www.linkedin.com/, Partner Logo3=, Address2=address2, Partner Logo2=, Address1=address1, Zipcode=90001.0, Partner Logo1=, Organization Name *=, Certification Completed=, ExpectedResult=Y, Twitter=https://twitter.com/, Fax=7.654334567E9, External ID=external id, Browser=Chrome}</td>
+<td><div><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63617}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: f56d93cc37fbd664d7098cd8c7acfde3
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.verificationofInfoTab(TestOrganization.java:118)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationVerificationTest(TestOrganization.java:60)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace265096845", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace265096845'><pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i&quot;}
+  (Session info: chrome=78.0.3904.97)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MQ1PM19&apos;, ip: &apos;192.168.1.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63617}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 78.0.3904.97, webStorageEnabled: true}
+Session ID: f56d93cc37fbd664d7098cd8c7acfde3
+*** Element info: {Using=xpath, value=//*[@id=&quot;termsandcondition&quot;]/div/div/div[2]/div/div/label[2]/i}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.selenium.mindmatrix.project.base.BaseTest.reportFail(BaseTest.java:335)
+	at com.selenium.mindmatrix.project.base.BaseTest.getElement(BaseTest.java:260)
+	at com.selenium.mindmatrix.project.base.BaseTest.doLogin(BaseTest.java:365)
+	at com.selenium.mindmatrix.project.base.BaseTest.defaultLogin(BaseTest.java:417)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.verificationofInfoTab(TestOrganization.java:118)
+	at com.selenium.mindmatrix.project.UserManagement.TestOrganization.organizationVerificationTest(TestOrganization.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>42</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestOrganization@74a10858</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation.TestUserGroupCreation11_1()'><b>TestUserGroupCreation11_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation<br>Parameters: {Description=Data entered in description field (123456789), name=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqqqqqqqqqqqqqqqq, InfoTab2=Description, InfoTab1=Name *, Runmode=Y, user=User, Des=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, login=Last Login, Tab3=3Roles, Tab2=2Add Users, Tab1=1Info}</td>
+<td></td>
+<td>254</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestUserGroupCreation@64f6106c</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestOrganization.subTest12_3()'><b>subTest12_3</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestOrganization<br>Parameters: {Username=, Amount-2=2000.0, Amount-1=5000.0, Password=, Runmode=Y, Revenue Goal-1="November-2019", Browser=Chrome}</td>
+<td></td>
+<td>202</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestOrganization@74a10858</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_3()'><b>userCreation8_3</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.UserCreation</td>
+<td></td>
+<td>174</td>
+<td>com.selenium.mindmatrix.project.UserManagement.UserCreation@43bd930a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.ImportUser.importingfile()'><b>importingfile</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.ImportUser<br>Parameters: {Mobile=Mobile, Address 3=Address 3, Address 2=Address 2, Address 1=Address 1, Usergroup=2019.09.04.13.26.05, Fax=Fax, Country=Country, Title=Title, Checkemail=Check if you want to sign the email, SpecificUser=Newuser, can send sms=can send sms, Last Name=Last Name, SpecificUserFunctionality=No,  linkedin mail=can send linkedin mail, State=State, Runmode=N, Step_wizard5=5Organization, Step_wizard4=4User Groups, First=First Name *, Step_wizard3=3Roles, Step_wizard2=2Field Mapping, Step_wizard1=1Select File, Zipcode=Zipcode, Roles=CommonRole, Importingfilename=users.csv, Emailfield1=Email *, City=City, Telephone=Telephone, organization=mjj}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.ImportUser.importingfile(ImportUser.java:708)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace925364462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace925364462'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.ImportUser.importingfile(ImportUser.java:708)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.ImportUser@33723e30</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_1()'><b>subTest4_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_1(TestCompanyCreation.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace903297131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace903297131'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_1(TestCompanyCreation.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_2()'><b>subTest4_2</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_2(TestCompanyCreation.java:167)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace323653293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace323653293'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_2(TestCompanyCreation.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_3()'><b>subTest4_3</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_3(TestCompanyCreation.java:267)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1587143371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1587143371'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_3(TestCompanyCreation.java:267)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_4()'><b>subTest4_4</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_4(TestCompanyCreation.java:300)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1879644274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1879644274'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_4(TestCompanyCreation.java:300)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_6()'><b>subTest4_6</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_6(TestCompanyCreation.java:957)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2068849105", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2068849105'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_6(TestCompanyCreation.java:957)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_7()'><b>subTest4_7</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_7(TestCompanyCreation.java:1012)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace940077890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace940077890'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_7(TestCompanyCreation.java:1012)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_8()'><b>subTest4_8</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {ADDRESS=, CITY=Chandigarh, Runmode=Y, ZIPCODE=, TELEPHONE=, COUNTRY=India, URL=, FAX=, STATE=Punjab, NAME=}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_8(TestCompanyCreation.java:1044)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace79486225", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace79486225'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.subTest4_8(TestCompanyCreation.java:1044)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.EditCompany.subTest5_1()'><b>subTest5_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.EditCompany<br>Parameters: {Runmode=Y, Address1=check123}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.EditCompany.subTest5_1(EditCompany.java:59)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735754293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735754293'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.EditCompany.subTest5_1(EditCompany.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.EditCompany@7a30d1e6</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation()'><b>testCompanyCreation</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation(TestCompanyCreation.java:1470)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1900971551", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1900971551'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation(TestCompanyCreation.java:1470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation()'><b>testCompanyCreation</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation(TestArchiveCompany.java:38)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1749250768", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1749250768'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation(TestArchiveCompany.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany@cb0ed20</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation1()'><b>testCompanyCreation1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation1(TestArchiveCompany.java:82)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1388030234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1388030234'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany.testCompanyCreation1(TestArchiveCompany.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestArchiveCompany@cb0ed20</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_10()'><b>testCompanyCreation4_10</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_10(TestCompanyCreation.java:1229)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace333447190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace333447190'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_10(TestCompanyCreation.java:1229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_11()'><b>testCompanyCreation4_11</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Url=http://www.mindmatrix.net/, Fax=0177-2650589, Runmode=Y, Zipcode=171001.0, Telephone=0177-2650589, Name=Dummy, City=Shimla, Address1=H. No. 129/1 Cart Road, State=Himachal Pradesh, Country=India}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_11(TestCompanyCreation.java:1270)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1024266763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1024266763'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_11(TestCompanyCreation.java:1270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_5()'><b>testCompanyCreation4_5</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_5(TestCompanyCreation.java:370)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1221376818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1221376818'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_5(TestCompanyCreation.java:370)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_9()'><b>testCompanyCreation4_9</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_9(TestCompanyCreation.java:1186)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace226800546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace226800546'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation.testCompanyCreation4_9(TestCompanyCreation.java:1186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCompanyCreation@553a3d88</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_1()'><b>testCopyCompany6_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCopyCompany<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_1(TestCopyCompany.java:69)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace954097071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace954097071'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_1(TestCopyCompany.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCopyCompany@5891e32e</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_2()'><b>testCopyCompany6_2</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCopyCompany<br>Parameters: {Runmode=Y}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_2(TestCopyCompany.java:122)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace268620178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace268620178'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_2(TestCopyCompany.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCopyCompany@5891e32e</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_3()'><b>testCopyCompany6_3</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.TestCopyCompany</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_3(TestCopyCompany.java:232)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1405999864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1405999864'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.TestCopyCompany.testCopyCompany6_3(TestCopyCompany.java:232)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.TestCopyCompany@5891e32e</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_1()'><b>userCreation8_1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.UserCreation<br>Parameters: {InfoTab2=Contact Info, InfoTab1=Info, field11=Can Send Sms, field10=Check if you want to sign the email, Mobile no=<NUMBER>, checkbox2=Unsubscribe from Company Emails, placeholder(portfolio)=<DOCUMENT>, placeholder(title)=<TEXT>, about yourself=hii,,,,,I am Lovish, Setting checkbox=Set Asset 'Auto Save' by default, City=<TEXT>, fax="0172-2567895", placeholder(lastname)=<TEXT>, placeholder(firstname)=<TEXT>, address3=Sector 71, address2=Sector 71, Contactinfo field 11=Fax, city=Mohali, Contactinfo field 10=Mobile Number, SMS=<NUMBER>, Phone no=<NUMBER>, Contactinfo field 9=SMS, Contactinfo field 8=Phone Number, Contactinfo field 7=Country, placeholder(profileimage)=<IMAGE>, Contactinfo field 6=Zip Code, placeholder(username)=<TEXT>, Contactinfo field 5=State, Contactinfo field 4=City, Contactinfo field 3=Address 3, Contactinfo field 2=Address 2, Contactinfo field 1=Address, lastname=test, placeholder(email)=<REQUIRED TO SEND EMAIL BLASTS>, title=Tester, field9=About Yourself, field8=Signature Image, field7=Profile Image, Adress3=<TEXT>, placeholder(signatureimage)=<IMAGE>, field6=Portfolio, Adress2=<TEXT>, field5=Title, field4=Last Name, Runmode=N, field3=First Name *, mobile no="7977773031", field2=Email *, Tab5=5Channel Manager, field1=User Name *, Tab4=4Roles, Tab3=3User Groups, Tab2=2Organization, State=<TEXT>, Tab1=1Info, Address=<TEXT>, address=Sector 71, Zipcode=<TEXT>, (Validation 101) characters=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, sms="4123367731", phone no="1882254774", Setting field 3=Cookie Policy Settings, Setting field 2=DateTime Format, zipcode="160071", Setting field 1=Time Zone, Fax=<NUMBER>, state=Punjab, InfoTab3=Setting}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_1(UserCreation.java:53)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace664070838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664070838'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_1(UserCreation.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.UserCreation@43bd930a</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_2()'><b>userCreation8_2</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.UserCreation</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_2(UserCreation.java:79)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20853837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20853837'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.UserCreation.userCreation8_2(UserCreation.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.UserCreation@43bd930a</td></tr>
+<tr>
+<td title='com.selenium.mindmatrix.project.UserManagement.ImportUser.userimaport1()'><b>userimaport1</b><br>Test class: com.selenium.mindmatrix.project.UserManagement.ImportUser<br>Parameters: {Mobile=Mobile, Address 3=Address 3, Address 2=Address 2, Address 1=Address 1, Usergroup=2019.09.04.13.26.05, Fax=Fax, Country=Country, Title=Title, Checkemail=Check if you want to sign the email, SpecificUser=Newuser, can send sms=can send sms, Last Name=Last Name, SpecificUserFunctionality=No,  linkedin mail=can send linkedin mail, State=State, Runmode=N, Step_wizard5=5Organization, Step_wizard4=4User Groups, First=First Name *, Step_wizard3=3Roles, Step_wizard2=2Field Mapping, Step_wizard1=1Select File, Zipcode=Zipcode, Roles=CommonRole, Importingfilename=users.csv, Emailfield1=Email *, City=City, Telephone=Telephone, organization=mjj}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.ImportUser.userimaport1(ImportUser.java:71)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095710480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2095710480'><pre>org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.mindmatrix.project.UserManagement.ImportUser.userimaport1(ImportUser.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1181)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.mindmatrix.project.UserManagement.ImportUser@33723e30</td></tr>
+</table><p>
+</body>
+</html>

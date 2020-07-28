@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteC]">
+  <test name="Opportunity(failed)">
+    <classes>
+      <class name="com.selenium.mindmatrix.project.Opportunity.TestOpportunity">
+        <methods>
+          <include name="init1"/>
+          <include name="quit"/>
+          <include name="defaultwithoutcustomfield" invocation-numbers="0"/>
+          <include name="subTest14_8" invocation-numbers="0"/>
+          <include name="defaultwithcustomfieldandLayout" invocation-numbers="0"/>
+          <include name="manage" invocation-numbers="0"/>
+          <include name="subTest14_9" invocation-numbers="0"/>
+          <include name="opportunityreport" invocation-numbers="0"/>
+          <include name="defaultwithoutcustomfieldandLayout" invocation-numbers="0"/>
+          <include name="stepprocesswithoutcustomfields" invocation-numbers="0"/>
+          <include name="stepprocesswithcustomfieldandlayout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mindmatrix.project.Opportunity.TestOpportunity -->
+    </classes>
+  </test> <!-- Opportunity(failed) -->
+</suite> <!-- Failed suite [SuiteC] -->
